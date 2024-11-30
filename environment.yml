@@ -2,5 +2,6 @@ name: dsci522-dockerfile-practice
 channels:
   - conda-forge
 dependencies:
+  - python==3.11
   - pandas==2.1.4
-  - requests==2.24.0
+  - sqlalchemy==1.4.46
